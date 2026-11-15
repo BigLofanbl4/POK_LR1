@@ -1,0 +1,9 @@
+{
+  "name": "lab01-ci",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node --check src/calculator.js && node scripts/build.js",
+    "test": "node --test"
+  }
+}
